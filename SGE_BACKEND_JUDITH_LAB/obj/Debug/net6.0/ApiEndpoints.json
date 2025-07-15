@@ -1,0 +1,114 @@
+[
+  {
+    "ContainingType": "SGE_BACKEND_JUDITH_LAB.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SGE_BACKEND_JUDITH_LAB.Dtos.BaseResponse\u00601[[System.Collections.Generic.IEnumerable\u00601[[SGE_BACKEND_JUDITH_LAB.Models.Usuarios, SGE_BACKEND_JUDITH_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGE_BACKEND_JUDITH_LAB.Controllers.UsuarioController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuarios/{usua_icod_usuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usua_icod_usuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGE_BACKEND_JUDITH_LAB.Dtos.BaseResponse\u00601[[SGE_BACKEND_JUDITH_LAB.Models.Usuarios, SGE_BACKEND_JUDITH_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGE_BACKEND_JUDITH_LAB.Controllers.UsuarioController",
+    "Method": "Post",
+    "RelativePath": "api/Usuarios/generate/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenRequestDto",
+        "Type": "SGE_BACKEND_JUDITH_LAB.Dtos.TokenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGE_BACKEND_JUDITH_LAB.Dtos.BaseResponse\u00601[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGE_BACKEND_JUDITH_LAB.Controllers.UsuarioController",
+    "Method": "GetUserByToken",
+    "RelativePath": "api/Usuarios/validarToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SGE_BACKEND_JUDITH_LAB.Dtos.BaseResponse\u00601[[SGE_BACKEND_JUDITH_LAB.Dtos.Token, SGE_BACKEND_JUDITH_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGE_BACKEND_JUDITH_LAB.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SGE_BACKEND_JUDITH_LAB.WeatherForecast, SGE_BACKEND_JUDITH_LAB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

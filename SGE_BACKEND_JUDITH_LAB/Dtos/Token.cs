@@ -1,0 +1,21 @@
+﻿namespace SGE_BACKEND_JUDITH_LAB.Dtos
+{
+    public class Token
+    {
+        public string token { get; set; } = null!;
+        public int usua_icod_usuario { get; set; }
+        public int usua_codigo_usuario { get; set; }
+        public string? usua_nombre_usuario { get; set; }
+        public string? usua_password_usuario { get; set; }
+        public int? usua_iusuario_crea { get; set; }
+        public DateTime? usua_sfecha_crea { get; set; }
+        public int usua_iusuario_modifica { get; set; }
+        public DateTime? usua__sfecha_modifica { get; set; }
+        public int usua_iactivo { get; set; }
+        public bool? usua_flag_estado { get; set; }
+        public bool? usua_bflag_indicador { get; set; }
+        public int? usua_bpunto_venta { get; set; }
+        public int? puvec_icod_punto_venta { get; set; }
+        public bool? usua_bweb { get; set; }
+    }
+}
