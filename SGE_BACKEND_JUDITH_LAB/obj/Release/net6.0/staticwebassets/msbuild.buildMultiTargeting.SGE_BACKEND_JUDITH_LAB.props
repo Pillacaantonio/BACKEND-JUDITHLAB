@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SGE_BACKEND_JUDITH_LAB.props" />
+</Project>

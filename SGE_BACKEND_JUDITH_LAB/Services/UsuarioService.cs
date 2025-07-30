@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using SGE_BACKEND_JUDITH_LAB.Common;
 using SGE_BACKEND_JUDITH_LAB.Context;
 using SGE_BACKEND_JUDITH_LAB.Dtos;
+using SGE_BACKEND_JUDITH_LAB.Interfaces;
 using SGE_BACKEND_JUDITH_LAB.Models;
 using System.Data;
 using System.IdentityModel.Tokens.Jwt;
@@ -11,7 +12,7 @@ using System.Text;
 
 namespace SGE_BACKEND_JUDITH_LAB.Services
 {
-    public class UsuarioService
+    public class UsuarioService :IUsuarioService
     {
         private readonly Conexion _conexion;
         private IConfiguration _configuration;

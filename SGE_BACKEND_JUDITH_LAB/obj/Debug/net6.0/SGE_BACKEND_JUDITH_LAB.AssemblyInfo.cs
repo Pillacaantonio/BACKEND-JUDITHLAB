@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGE_BACKEND_JUDITH_LAB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+798bdd0eedb60ab01ac665591fbe16b5f4bc8da1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGE_BACKEND_JUDITH_LAB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGE_BACKEND_JUDITH_LAB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
