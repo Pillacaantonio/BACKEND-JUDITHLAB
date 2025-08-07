@@ -50,5 +50,12 @@ namespace SGE_BACKEND_JUDITH_LAB.Controllers
 
              return CreatedAtAction(nameof(CrearCotizacion), new { id = cabecera.CtvcIcodCotizacionVenta }, dto);
         }
+
+        [HttpGet("Correlativo")]
+        public async Task<ActionResult<BaseResponse<IEnumerable<CorrelativoCotizacion>>>> Correlativo()
+        {
+            var data = await _cotizacionService.Correlativo();
+            return Ok(data);
+        }
     }
 }

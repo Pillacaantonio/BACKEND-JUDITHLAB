@@ -179,6 +179,25 @@ namespace SGE_BACKEND_JUDITH_LAB.Services
                 }
             }
         }
+
+        public async Task<BaseResponse<IEnumerable<CorrelativoCotizacion>>> Correlativo()
+        {
+            var response = new BaseResponse<IEnumerable<CorrelativoCotizacion>>();
+            try
+            {
+                using (var conexion = _conexion.ObtenerConnexion())
+                {
+                    response.Data = await conexion.QueryAsync<CorrelativoCotizacion>("SGE_OBTENER_ULT_CORRELATIVO_COTIZACION", commandType: CommandType.StoredProcedure);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.innerExeption = ex.Message;
+                response.IsSucces = false;
+            }
+
+            return response;
+        }
     }
 }
  

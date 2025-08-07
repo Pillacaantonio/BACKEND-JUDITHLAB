@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj": {}
+    "D:\\SIDE\\BACKEND-JUDITHLAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj": {
+    "D:\\SIDE\\BACKEND-JUDITHLAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj",
+        "projectUniqueName": "D:\\SIDE\\BACKEND-JUDITHLAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj",
         "projectName": "SGE_BACKEND_JUDITH_LAB",
-        "projectPath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj",
-        "packagesPath": "C:\\Users\\ROBERTO\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB\\obj\\",
+        "projectPath": "D:\\SIDE\\BACKEND-JUDITHLAB\\SGE_BACKEND_JUDITH_LAB\\SGE_BACKEND_JUDITH_LAB.csproj",
+        "packagesPath": "C:\\Users\\JOSE\\.nuget\\packages\\",
+        "outputPath": "D:\\SIDE\\BACKEND-JUDITHLAB\\SGE_BACKEND_JUDITH_LAB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ROBERTO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JOSE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,6 +24,7 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

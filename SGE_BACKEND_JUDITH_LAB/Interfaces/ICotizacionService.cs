@@ -8,6 +8,7 @@ namespace SGE_BACKEND_JUDITH_LAB.Interfaces
         Task<BaseResponse<IEnumerable<Cotizacion>>> CotizacionList();
         Task<string> CrearCotizacion(CotizaccionCab cabecera);
         Task<BaseResponse<IEnumerable<ProdTerminado>>> ProdTerminadoList();
+        Task<BaseResponse<IEnumerable<CorrelativoCotizacion>>> Correlativo();
 
 
     }

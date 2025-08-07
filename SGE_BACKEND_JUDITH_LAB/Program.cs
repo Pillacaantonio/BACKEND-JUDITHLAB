@@ -24,6 +24,8 @@ builder.Services.AddScoped<ICotizacionService,CotizacionService>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<ILogoService, LogoService>();
 builder.Services.AddScoped<IVendedorService,VendedorService>();
+builder.Services.AddScoped<IDestinoService, DestinoService>();
+builder.Services.AddScoped<IMetodoPagoService,MetodoPagoService>();
 builder.Services.AddCors(options => options.AddPolicy("AllowWebapp",
                                     builder => builder.AllowAnyOrigin()
                                                     .AllowAnyHeader()
